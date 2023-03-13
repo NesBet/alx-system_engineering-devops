@@ -5,3 +5,4 @@
 4-lastlines___Script that displays the last 10 lines of /etc/passwd file.
 5-firstlines___Script that displays the first 10 lines of /etc/passwd file.
 6-third_line___Script that displays the third line of the file iact.
+7-file___Script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School.
