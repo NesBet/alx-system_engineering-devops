@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Configuring web-02 to be identical to web-01.
-# Name of the custom HTTP header must be X-Served-By.
- 
+# Name of the custom HTTP header must be X-Served-By. 
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
