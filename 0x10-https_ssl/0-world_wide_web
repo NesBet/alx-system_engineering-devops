@@ -1,21 +1,16 @@
 #!/usr/bin/env bash
 # Script that displays information about subdomains.
 
-runDig () {
-    subdomain=$1
-    domain=$2
-
-    dig "$subdomain.$domain" | grep -A1 'ANSWER SECTION:' | tail -1 | awk -v s="$subdomain" 'BEGIN { FS = " " } ; { print "The subdomain " s " is a " $4 " record and points to " $5 }'
+display_info() {
+	dig "$1.$2" | grep -A1 'ANSWER SECTION:' | paste - - | awk -v sd="$1" '{print "The subdomain " sd " is a " $6 " record and points to " $7}'
 }
 
-if [ $# -eq 1 ]; then
-    domain="$1"
-    for i in "${subdomains_all[@]}"
-    do
-	runDig "$i" "$domain"
-    done
-elif [ $# -eq 2 ]; then
-    domain="$1"
-    subdomain="$2"
-    runDig "$subdomain" "$domain"
+if [ -n "$2" ]; then
+	display_info "$2" "$1"
+else
+	display_info "www" "$1"
+	display_info "lb-01" "$1"
+	display_info "web-01" "$1"
+	display_info "web-02" "$1"
 fi
+
