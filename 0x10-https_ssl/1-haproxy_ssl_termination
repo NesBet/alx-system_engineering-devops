@@ -33,19 +33,18 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-#--neshbet.tech-params-begin--
-frontend neshbet.tech-http-frontend
-	bind *:80
-	http-request set-header X-Forwarded-Proto http
-	default_backend neshbet.tech-backend
+frontend http
+        bind *:80
+        http-request set-header X-Forwarded-Proto http
+        default_backend web-backend
 
-frontend ayeniayodeji.tech-https-frontend
-	bind *:443 ssl crt /etc/ssl/neshbet.tech/neshbet.tech.pem
-	http-request set-header X-Forwarded-Proto https
-	default_backend neshbet.tech-backend
+frontend www-https
+        bind *:443 ssl crt /etc/haproxy/ssl/www.neshbet.tech.pem
+        http-request set-header X-Forwarded-Proto https
+        default_backend web-backend
 
-backend neshbet.tech-backend
-	balance roundrobin
-	server web01 52.3.246.202:80 check
-	server web02 34.207.189.210:80 check
-#--neshbet.tech-params-end--
+backend web-backend
+        balance roundrobin
+        redirect scheme https code 301 if !{ ssl_fc }
+        server 341369-web-01 52.3.246.202:80 check
+        server 341369-web-02 34.207.189.210:80 check
