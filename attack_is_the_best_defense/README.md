@@ -1,3 +1,3 @@
-# Attack_is_the_best_defense
+# ATTACK_IS_THE_BEST_DEFENSE  
 
-Optional project done at ALX.
+This is optional project done at ALX.
