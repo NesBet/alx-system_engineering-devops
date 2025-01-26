@@ -1,4 +1,4 @@
-**Postmortem: The Great Load Balancer Misconfiguration**
+# POSTMORTEM: The Great Load Balancer Misconfiguration
 
 **Executive Summary**
 
