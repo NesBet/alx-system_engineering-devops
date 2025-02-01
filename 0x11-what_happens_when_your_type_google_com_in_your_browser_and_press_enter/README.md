@@ -1,1 +1,3 @@
-What happens when you type google.com in your browser and press Enter
+# GOOGLE.COM
+
+What happens when you enter the url google.com on your browser
