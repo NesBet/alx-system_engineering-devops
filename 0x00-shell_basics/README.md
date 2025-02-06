@@ -1,5 +1,5 @@
 # SHELL BASICS  
-
+##
 0-current_working_directory - Script that prints the current working directory.  
 1-listit - Script that display the contents list of the current directory.  
 2-bring_me_home - script that changes the working directory to the user’s home directory.  
@@ -20,3 +20,4 @@
 102-tree - Script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.  
 103-commas - Script that lists all the files and directories of the current directory, separated by commas (,).  
 school.mgc - Magic file  that can be used with the command file to detect School data files.  
+##
