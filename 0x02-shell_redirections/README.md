@@ -11,11 +11,11 @@
     * 8-cwd_state___Script that writes into the file ls_cwd_content the result of the command ls -la.  
     * 9-duplicate_last_line___Script that duplicates the last line of the file iacta.  
     * 10-no_more_js___Script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.  
-11-directories___Script that counts the number of directories and sub-directories in the current directory.  
-12-newest_files___Script that displays the 10 newest files in the current directory.  
-13-unique__Script that takes a list of words as input and prints only words that appear exactly once.  
-14-findthatword___Script that display lines containing the pattern “root” from the file /etc/passwd.  
-15-countthatword___Script that display the number of lines that contain the pattern “bin” in the file /etc/passwd.  
+    * 11-directories___Script that counts the number of directories and sub-directories in the current directory.  
+    * 12-newest_files___Script that displays the 10 newest files in the current directory.  
+    * 13-unique__Script that takes a list of words as input and prints only words that appear exactly once.  
+    * 14-findthatword___Script that display lines containing the pattern “root” from the file /etc/passwd.  
+    * 15-countthatword___Script that display the number of lines that contain the pattern “bin” in the file /etc/passwd.  
 16-whatsnext___Script Displaying lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.  
 17-hidethisword___Script display all the lines in the file /etc/passwd that do not contain the pattern “bin”.  
 18-letteronly___Script to display all lines of the file /etc/ssh/sshd_config starting with a letter.  
