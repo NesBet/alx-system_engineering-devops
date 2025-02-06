@@ -1,7 +1,7 @@
 # SHELL PERMISSIONS  
 ##
     0. My name is Betty__A script that switches the current user to the user betty.  
-    1. Who am I__A  script that prints the effective username of the current user.  
+    1. Who am I__A script that prints the effective username of the current user.  
     2. Groups__A script that prints all the groups the current user is part of.  
     3. New owner__A script that changes the owner of the file hello to the user betty.  
     4. Empty!__A script that creates an empty file called hello.  
