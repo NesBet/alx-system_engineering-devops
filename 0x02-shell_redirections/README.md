@@ -19,12 +19,12 @@
     * 16-whatsnext___Script Displaying lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.  
     * 17-hidethisword___Script display all the lines in the file /etc/passwd that do not contain the pattern “bin”.  
     * 18-letteronly___Script to display all lines of the file /etc/ssh/sshd_config starting with a letter.  
-19-AZ___Script that replaces all characters A and c from input to Z and e respectively.  
-20-hiago___Script that removes all letters c and C from input.  
-21-reverse___Script that reverse its input.  
-22-users_and_homes___Script that displays all users and their home directories, sorted by users.  
-100-empty_casks___Command that finds all empty files and directories in the current directory and all sub-directories.  
-101-gifs___Script that lists all the files with a .gif extension in the current directory and all its sub-directories.  
-102-acrostic___Script that decodes acrostics that use the first letter of each line.  
-103-the_biggest_fan___Script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+    * 19-AZ___Script that replaces all characters A and c from input to Z and e respectively.  
+    * 20-hiago___Script that removes all letters c and C from input.  
+    * 21-r.everse___Script that reverse its input.  
+    * 22-users_and_homes___Script that displays all users and their home directories, sorted by users.  
+    * 100-empty_casks___Command that finds all empty files and directories in the current directory and all sub-directories.  
+    * 101-gifs___Script that lists all the files with a .gif extension in the current directory and all its sub-directories.  
+    * 102-acrostic___Script that decodes acrostics that use the first letter of each line.  
+    * 103-the_biggest_fan___Script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 ##
