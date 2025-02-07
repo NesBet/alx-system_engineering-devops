@@ -1,4 +1,4 @@
-# Configuration management
+# CONFIGURATION MANAGEMENT
 
 ## Files
 
