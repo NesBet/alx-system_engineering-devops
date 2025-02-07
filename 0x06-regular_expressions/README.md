@@ -1,4 +1,4 @@
-# Regular expression
+# REGULAR EXPRESSIONS
 
 ## Files
 
