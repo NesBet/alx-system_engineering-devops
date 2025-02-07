@@ -1,4 +1,4 @@
-# Loops, conditions and parsing
+# LOOPS, CONDITIONS and PARSING
 
 ## Files
 
