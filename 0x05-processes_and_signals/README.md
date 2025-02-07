@@ -1,4 +1,4 @@
-# Processes and signals
+# PROCESSES & SIGNALS
 
 ## Files
 
