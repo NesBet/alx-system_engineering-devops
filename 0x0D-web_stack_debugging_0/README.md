@@ -1,4 +1,4 @@
-# Web stack debugging
+# WEB STACK DEBUGGING
 
 ## File
 
